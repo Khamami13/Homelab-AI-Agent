@@ -39,8 +39,10 @@ Saat instalasi Debian:
 Filesystem:
 
 ```text
-EFI        1 GB      FAT32
-ROOT       Sisa Disk Btrfs
+EFI      512 MB      FAT32
+/boot      1 GB      ext4
+swap       8 GB      swap
+/         sisa disk  btrfs 
 ```
 
 Mount Point:
